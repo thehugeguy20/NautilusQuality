@@ -1,0 +1,38 @@
+{
+    "strings": 
+    {
+        "ITEM_CRABSINTHE_UNCOMMON_NAME": "Uncommon Crabsinthe",
+        "ITEM_CRABSINTHE_UNCOMMON_PICKUP": "[[BASE]]\n<sprite name="Quality"> Gain barrier on health regeneration. Movement scales with barrier.",
+        "ITEM_CRABSINTHE_UNCOMMON_DESCRIPTION" = "Decreases <style=cIsHealing>barrier</style> decay rate by <style=cIsUtility>7%</style>. Whilst regenerating health, Gain <sprite name="Quality"> <style=cIsUtility>150%</style> <style=cStack>(+35% per stack)</style> of replenished health as barrier. Movement speed scales with barrier up to <style=cIsUtility>200%</style>.",
+
+        "ITEM_CRABSINTHE_RARE_NAME": "Rare Crabsinthe",
+        "ITEM_CRABSINTHERARE_PICKUP": "[[BASE]]\n<sprite name="Quality"> Gain barrier on health regeneration. Movement scales with barrier.",
+        "ITEM_CRABSINTHE_RARE_DESCRIPTION": "Decreases <style=cIsHealing>barrier</style> decay rate by <style=cIsUtility>7%</style>. Whilst regenerating health, Gain <sprite name="Quality"> <style=cIsUtility>200%</style> <style=cStack>(+35% per stack)</style> of replenished health as barrier. Movement speed scales with barrier up to <style=cIsUtility>200%</style>.",
+
+        "ITEM_CRABSINTHE_RARE_NAME": "Rare Crabsinthe",
+        "ITEM_CRABSINTHEEPIC_PICKUP": "[[BASE]]\n<sprite name="Quality"> Gain barrier on health regeneration. Movement scales with barrier.",
+        ITEM_CRABSINTHE_EPIC_DESCRIPTION": "Decreases <style=cIsHealing>barrier</style> decay rate by <style=cIsUtility>7%</style>. Whilst regenerating health, Gain <sprite name="Quality"> <style=cIsUtility>250%</style> <style=cStack>(+35% per stack)</style> of replenished health as barrier. Movement speed scales with barrier up to <style=cIsUtility>200%</style>.",
+
+        "ITEM_CRABSINTHE_LEGENDARY_NAME": "Legendary Crabsinthe",
+        "ITEM_CRABSINTHE_LEGENDARY_PICKUP": "[[BASE]]\n<sprite name="Quality"> Gain barrier on health regeneration. Movement scales with barrier.",
+        "ITEM_CRABSINTHE_LEGENDARY_DESCRIPTION": "Decreases <style=cIsHealing>barrier</style> decay rate by <style=cIsUtility>7%</style>. Whilst regenerating health, Gain <sprite name="Quality"> <style=cIsUtility>350%</style> <style=cStack>(+35% per stack)</style> of replenished health as barrier. Movement speed scales with barrier up to <style=cIsUtility>200%</style>."
+    }
+    "en": 
+    {
+        "ITEM_CRABSINTHE_UNCOMMON_NAME": "Uncommon Crabsinthe",
+        "ITEM_CRABSINTHE_UNCOMMON_PICKUP": "[[BASE]]\n<sprite name="Quality"> Gain barrier on health regeneration. Movement scales with barrier.",
+        "ITEM_CRABSINTHE_UNCOMMON_DESCRIPTION" = "Decreases <style=cIsHealing>barrier</style> decay rate by <style=cIsUtility>7%</style>. Whilst regenerating health, Gain <sprite name="Quality"> <style=cIsUtility>150%</style> <style=cStack>(+35% per stack)</style> of replenished health as barrier. Movement speed scales with barrier up to <style=cIsUtility>200%</style>.",
+
+        "ITEM_CRABSINTHE_RARE_NAME": "Rare Crabsinthe",
+        "ITEM_CRABSINTHERARE_PICKUP": "[[BASE]]\n<sprite name="Quality"> Gain barrier on health regeneration. Movement scales with barrier.",
+        "ITEM_CRABSINTHE_RARE_DESCRIPTION": "Decreases <style=cIsHealing>barrier</style> decay rate by <style=cIsUtility>7%</style>. Whilst regenerating health, Gain <sprite name="Quality"> <style=cIsUtility>200%</style> <style=cStack>(+35% per stack)</style> of replenished health as barrier. Movement speed scales with barrier up to <style=cIsUtility>200%</style>.",
+
+        "ITEM_CRABSINTHE_RARE_NAME": "Rare Crabsinthe",
+        "ITEM_CRABSINTHEEPIC_PICKUP": "[[BASE]]\n<sprite name="Quality"> Gain barrier on health regeneration. Movement scales with barrier.",
+        ITEM_CRABSINTHE_EPIC_DESCRIPTION": "Decreases <style=cIsHealing>barrier</style> decay rate by <style=cIsUtility>7%</style>. Whilst regenerating health, Gain <sprite name="Quality"> <style=cIsUtility>250%</style> <style=cStack>(+35% per stack)</style> of replenished health as barrier. Movement speed scales with barrier up to <style=cIsUtility>200%</style>.",
+
+        "ITEM_CRABSINTHE_LEGENDARY_NAME": "Legendary Crabsinthe",
+        "ITEM_CRABSINTHE_LEGENDARY_PICKUP": "[[BASE]]\n<sprite name="Quality"> Gain barrier on health regeneration. Movement scales with barrier.",
+        "ITEM_CRABSINTHE_LEGENDARY_DESCRIPTION": "Decreases <style=cIsHealing>barrier</style> decay rate by <style=cIsUtility>7%</style>. Whilst regenerating health, Gain <sprite name="Quality"> <style=cIsUtility>350%</style> <style=cStack>(+35% per stack)</style> of replenished health as barrier. Movement speed scales with barrier up to <style=cIsUtility>200%</style>."
+    }
+}

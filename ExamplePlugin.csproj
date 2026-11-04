@@ -1,0 +1,53 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.1</TargetFramework>
+		<AssemblyName>NautilusQuality</AssemblyName>
+		 <RootNamespace>NautilusQuality</RootNamespace>
+		<LangVersion>preview</LangVersion>
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+		<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+
+        <RestoreAdditionalProjectSources>
+			https://api.nuget.org/v3/index.json;
+			https://nuget.bepinex.dev/v3/index.json
+		</RestoreAdditionalProjectSources>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="BepInEx.Analyzers" Version="1.0.*">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		
+		<PackageReference Include="BepInEx.Core" Version="5.4.21" />
+
+		<PackageReference Include="R2API.Items" Version="1.0.*" />
+		<PackageReference Include="R2API.Language" Version="1.1.0" />
+		<PackageReference Include="R2API.RecalculateStats" Version="1.7.0" PrivateAssets="all" />
+		<PackageReference Include="R2API.ContentManagement" Version="1.1.0" PrivateAssets="all" />
+		<PackageReference Include="R2API.Prefab" Version="1.1.1" PrivateAssets="all" />
+		<PackageReference Include="R2API.ProcType" Version="1.0.2" PrivateAssets="all" />
+		<PackageReference Include="R2API.Networking" Version="1.0.4" PrivateAssets="all" />
+
+		<PackageReference Include="UnityEngine.Modules" Version="2021.3.45" IncludeAssets="compile" />
+		<PackageReference Include="RiskOfRain2.GameLibs" Version="*-*" />
+		<PackageReference Include="MMHOOK.RoR2" Version="*" NoWarn="NU1701" />
+        <PackageReference Include="RoR2BepInExPack" Version="*" />
+	</ItemGroup>
+
+	<ItemGroup>
+	<Reference Include="libs\ItemQualities.dll" Private="false" />
+	<Reference Include="libs\Nautilus.dll" Private="false" />
+	<Reference Include="libs\RoR2BepInExPack.dll" Private="false" />
+	<Reference Include="libs\RiskOfOptions.dll" Private="false" />
+	</ItemGroup>
+
+	<!-- 
+	<Target Name="CheckLibs" BeforeTargets="ResolveAssemblyReferences">
+    	<Error Condition="!Exists('libs\Nautilus.dll') Or !Exists('libs\RiskOfOptions.dll')" Text="libs/ is missing DLLs. Run: python tools/fetch_deps.py" />
+	</Target>
+	-->
+
+</Project>

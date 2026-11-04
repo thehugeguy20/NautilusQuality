@@ -1,0 +1,8 @@
+C:\Users\alanb\Documents\NautliusQuality-main\NautilusQuality\bin\Release\NautilusQuality.deps.json
+C:\Users\alanb\Documents\NautliusQuality-main\NautilusQuality\bin\Release\NautilusQuality.dll
+C:\Users\alanb\Documents\NautliusQuality-main\NautilusQuality\bin\Release\NautilusQuality.pdb
+C:\Users\alanb\Documents\NautliusQuality-main\NautilusQuality\obj\Release\ExamplePlugin.csproj.AssemblyReference.cache
+C:\Users\alanb\Documents\NautliusQuality-main\NautilusQuality\obj\Release\ExamplePlugin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alanb\Documents\NautliusQuality-main\NautilusQuality\obj\Release\ExamplePlugin.csproj.CoreCompileInputs.cache
+C:\Users\alanb\Documents\NautliusQuality-main\NautilusQuality\obj\Release\NautilusQuality.dll
+C:\Users\alanb\Documents\NautliusQuality-main\NautilusQuality\obj\Release\NautilusQuality.pdb
